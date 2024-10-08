@@ -1,0 +1,43 @@
+/* Statistics.css */
+.statistics-container {
+    display: flex;
+    justify-content: space-between; /* Align boxes to have space between them */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .statistics-box {
+    flex: 1; /* Boxes take equal space */
+    margin: 0 10px; /* Spacing between boxes */
+    padding: 20px;
+    background-color: #ffffff; /* White background for boxes */
+    border-radius: 8px; /* Rounded corners for boxes */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Slight shadow for boxes */
+    text-align: center; /* Center align text */
+  }
+  
+  .statistics-title {
+    font-size: 1.5em; /* Increase font size for titles */
+    color: #333; /* Darker color for titles */
+    margin-bottom: 10px; /* Space below titles */
+  }
+  
+  .statistics-value {
+    font-size: 2em; /* Larger font size for values */
+    color: #007bff; /* Blue color for values */
+    font-weight: bold; /* Make value bold */
+  }
+  
+  /* Add media query for responsiveness */
+  @media (max-width: 768px) {
+    .statistics-container {
+      flex-direction: column; /* Stack boxes on smaller screens */
+    }
+  
+    .statistics-box {
+      margin: 10px 0; /* Vertical margin for stacked boxes */
+    }
+  }
+  
